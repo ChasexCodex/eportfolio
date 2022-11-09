@@ -62,9 +62,12 @@ export default function MaskedImage({src1, src2, width, height}: Props) {
       return {x: mx, y: my}
     }
 
-    canvas.addEventListener('mousemove',  (e) => {
+    const move = (e: any) => {
       redraw(getMouse(e, canvas))
-    }, false)
+    }
+
+    canvas.addEventListener('mousemove', move, false)
+    canvas.addEventListener('touchmove', move, false)
 
     canvas.addEventListener('mouseleave', () => {
       redraw({x: -100, y: -200})

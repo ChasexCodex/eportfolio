@@ -1,7 +1,7 @@
-export default function Page(props: any) {
+export default function Page({children, className}: any) {
   return (
-    <div className="w-full h-full flex flex-col">
-      {props}
+    <div className={'flex flex-col max-w-screen min-w-screen min-h-screen ' + className}>
+      {children}
     </div>
   )
 }
