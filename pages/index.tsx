@@ -1,23 +1,19 @@
 import Page from '../components/Page'
 import MainHeader from '../components/MainHeader'
 import NavBar from '../components/NavBar'
+import Image from 'next/image'
 
 export default function Home() {
   return (
-    <Page className="py-10 container">
-      <main className="flex flex-col">
-        <MainHeader/>
-        <div className="pt-10 flex justify-center items-center">
-          {/*<MaskedImage width="810" height="1080"*/}
-          {/*             src1="images/profile/normal.jpg"*/}
-          {/*             src2="images/profile/cipher.png"/>*/}
-          {/*<Image alt="Profile Image" src="/images/profile/normal_profile.jpg" width={405} height={540}/>*/}
-        </div>
-        {/*<div className="mx-auto absolute inset-0 overflow-clip z-10">*/}
-        {/*  <video src="/Digital_World.mp4" autoPlay={true} loop={true}/>*/}
-        {/*</div>*/}
+    <Page className="py-10 mx-auto">
+      <MainHeader/>
+      <div className="relative w-60 h-60 mx-auto my-10">
+        <Image src="/images/profile/round.jpg" alt="Profile Image" className="rounded-full ring ring-white" fill/>
+      </div>
+      <NavBar/>
+      <main className="flex flex-col pt-10">
+        <video src="/Digital_World.mp4" autoPlay={true} loop={true}/>
       </main>
-        <NavBar/>
     </Page>
   )
 }

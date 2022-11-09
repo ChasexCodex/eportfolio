@@ -21,8 +21,8 @@ export default function MaskedImage({src1, src2, width, height}: Props) {
     const image1 = new Image()
     const image2 = new Image()
 
-    const width = 810
-    const height = 1080
+    const width = canvas.width
+    const height = canvas.height
 
     image1.src = src1
     image2.src = src2
@@ -76,6 +76,8 @@ export default function MaskedImage({src1, src2, width, height}: Props) {
   }, [src1, src2])
 
   return (
-    <canvas ref={ref} width={width} height={height}/>
+    <div className="aspect-1/2 w-screen h-96">
+      <canvas ref={ref} className="w-full h-full"/>
+    </div>
   )
 }
