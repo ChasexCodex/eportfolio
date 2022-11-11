@@ -7,7 +7,7 @@ export default function NavBar() {
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/cv">CV</Link>
-        <Link href="/contact">Contact</Link>
+        <a href="https://blog.elyas-amri.ga">Blog</a>
       </div>
     </nav>
   )
