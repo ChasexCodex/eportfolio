@@ -8,32 +8,24 @@ import Link from 'next/link'
 const Banners = () => {
   return (
     <div className="space-y-40 w-3/4 mx-auto">
-      <Link href="/work/code">
-        <div className="h-[35rem] shadow-xl rounded px-4 pt-10 relative bg-gradient-to-br from-gray-400">
+      <Link href="/work/code" className="block h-[35rem] shadow-xl rounded px-4 pt-10 relative bg-gradient-to-br from-gray-400">
           <p className="text-5xl font-bold pl-6">Coding and Software</p>
-          <Image src="/images/coding.png" alt="alt" className="object-cover -z-10" fill/>
-        </div>
+          <Image src="/images/coding.png" className="object-cover -z-10 transform transition hover:scale-125" fill alt="alt"/>
       </Link>
 
-      <Link href="/work/english">
-        <div className="h-[35rem] shadow-xl rounded px-4 pt-10 relative bg-gradient-to-br from-orange-700">
+      <Link href="/work/english" className="block h-[35rem] shadow-xl rounded px-4 pt-10 relative bg-gradient-to-br from-orange-700">
           <p className="text-4xl font-bold pl-6">English 104 Research and Study</p>
-          <Image src="/images/library.jpg" alt="alt" className="object-cover -z-10" fill/>
-        </div>
+          <Image src="/images/library.jpg" className="object-cover -z-10 transform transition hover:scale-125" fill alt="alt"/>
       </Link>
 
-      <Link href="/work/design">
-        <div className="h-[35rem] shadow-xl rounded px-4 pt-10 relative bg-gradient-to-br from-blue-400">
+      <Link href="/work/design" className="block h-[35rem] shadow-xl rounded px-4 pt-10 relative bg-gradient-to-br from-blue-400">
           <p className="text-4xl font-bold pl-6">Graphics and Design</p>
-          <Image src="/images/deer.jpg" alt="alt" className="object-cover -z-10" fill/>
-        </div>
+          <Image src="/images/deer.jpg" className="object-cover -z-10 transform transition hover:scale-125" fill alt="alt"/>
       </Link>
 
-      <Link href="/work/music">
-        <div className="h-[35rem] shadow-xl rounded px-4 pt-10 relative bg-gradient-to-br from-purple-400">
+      <Link href="/work/music" className="block h-[35rem] shadow-xl rounded px-4 pt-10 relative bg-gradient-to-br from-purple-400">
           <p className="text-5xl font-bold pl-6">Music</p>
-          <Image src="/images/ableton.png" alt="alt" className="object-cover -z-10" fill/>
-        </div>
+          <Image src="/images/ableton.png" className="object-cover -z-10 transform transition hover:scale-125" fill alt="alt"/>
       </Link>
     </div>
   )
