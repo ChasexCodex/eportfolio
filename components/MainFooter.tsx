@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function MainFooter() {
   return (
-      <footer className="w-full pt-10 pb-6 bg-gray-900 mt-10 shadow-xl mt-auto">
+      <footer className="w-full pt-10 pb-6 bg-gray-900 shadow-xl mt-auto">
         <form className="flex flex-col w-1/3 ml-20 space-y-4">
           <p className="font-bold text-4xl">Contact:</p>
           <label htmlFor="name" className="flex">

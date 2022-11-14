@@ -7,25 +7,25 @@ import Link from 'next/link'
 
 const Banners = () => {
   return (
-    <div className="space-y-40 w-3/4 mx-auto">
-      <Link href="/work/code" className="block h-[35rem] shadow-xl rounded px-4 pt-10 relative bg-gradient-to-br from-gray-400">
+    <div className="space-y-20 pt-60 pb-20 w-3/4 mx-auto">
+      <Link href="/work/code" className="block h-[35rem] rounded-lg overflow-hidden px-4 pt-10 relative bg-gradient-to-br from-gray-400">
           <p className="text-5xl font-bold pl-6">Coding and Software</p>
-          <Image src="/images/coding.png" className="object-cover -z-10 transform transition hover:scale-125" fill alt="alt"/>
+          <Image src="/images/coding.png" fill alt="alt" className="object-cover -z-10"/>
       </Link>
 
-      <Link href="/work/english" className="block h-[35rem] shadow-xl rounded px-4 pt-10 relative bg-gradient-to-br from-orange-700">
+      <Link href="/work/english" className="block h-[35rem] rounded-lg overflow-hidden px-4 pt-10 relative bg-gradient-to-br from-orange-700">
           <p className="text-4xl font-bold pl-6">English 104 Research and Study</p>
-          <Image src="/images/library.jpg" className="object-cover -z-10 transform transition hover:scale-125" fill alt="alt"/>
+          <Image src="/images/library.jpg" fill alt="alt" className="object-cover -z-10"/>
       </Link>
 
-      <Link href="/work/design" className="block h-[35rem] shadow-xl rounded px-4 pt-10 relative bg-gradient-to-br from-blue-400">
+      <Link href="/work/design" className="block h-[35rem] rounded-lg overflow-hidden px-4 pt-10 relative bg-gradient-to-br from-blue-400">
           <p className="text-4xl font-bold pl-6">Graphics and Design</p>
-          <Image src="/images/deer.jpg" className="object-cover -z-10 transform transition hover:scale-125" fill alt="alt"/>
+          <Image src="/images/deer.jpg" fill alt="alt" className="object-cover -z-10"/>
       </Link>
 
-      <Link href="/work/music" className="block h-[35rem] shadow-xl rounded px-4 pt-10 relative bg-gradient-to-br from-purple-400">
+      <Link href="/work/music" className="block h-[35rem] rounded-lg overflow-hidden px-4 pt-10 relative bg-gradient-to-br from-purple-400">
           <p className="text-5xl font-bold pl-6">Music</p>
-          <Image src="/images/ableton.png" className="object-cover -z-10 transform transition hover:scale-125" fill alt="alt"/>
+          <Image src="/images/ableton.png" fill alt="alt" className="object-cover -z-10"/>
       </Link>
     </div>
   )
@@ -45,9 +45,6 @@ export default function Home() {
         <div className="relative w-60 h-60 lg:w-96 lg:h-96 mx-auto my-10">
           <Image src="/images/profile/round.jpg" alt="Profile Image" className="rounded-full ring ring-white" fill/>
         </div>
-      </div>
-      <div>
-        <video src="/loader.mp4" className="mx-auto w-screen shadow-xl" autoPlay loop controls={false}/>
       </div>
       <Banners/>
       <MainFooter/>
