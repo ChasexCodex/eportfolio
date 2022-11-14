@@ -14,12 +14,12 @@ const Banners = () => {
       </Link>
 
       <Link href="/work/english" className="block h-[35rem] rounded-lg overflow-hidden px-4 pt-10 relative bg-gradient-to-br from-orange-700">
-          <p className="text-4xl font-bold pl-6">English 104 Research and Study</p>
+          <p className="text-5xl font-bold pl-6">English 104 Research and Study</p>
           <Image src="/images/library.jpg" fill alt="alt" className="object-cover -z-10"/>
       </Link>
 
       <Link href="/work/design" className="block h-[35rem] rounded-lg overflow-hidden px-4 pt-10 relative bg-gradient-to-br from-blue-400">
-          <p className="text-4xl font-bold pl-6">Graphics and Design</p>
+          <p className="text-5xl font-bold pl-6">Graphics and Design</p>
           <Image src="/images/deer.jpg" fill alt="alt" className="object-cover -z-10"/>
       </Link>
 

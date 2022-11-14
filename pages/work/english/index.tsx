@@ -40,6 +40,14 @@ export default function English() {
             How I went from playing simple notes on a toy keyboard to playing classical pieces on a grand piano.
           </p>
         </Link>
+        <Link href="/work/english/presentation" className="px-4 h-96 bg-gradient-to-b from-green-600 to-gray-400 block">
+          <p className="py-4 text-3xl font-semibold">
+            Presentation of Ethnography Research
+          </p>
+          <p className="w-80">
+            How I went from playing simple notes on a toy keyboard to playing classical pieces on a grand piano.
+          </p>
+        </Link>
       </div>
       <MainFooter/>
     </Page>
