@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const Banners = () => {
   return (
-    <div className="space-y-20 pt-60 pb-20 px-6 lg:w-3/4 mx-auto">
+    <div className="space-y-20 pb-20 px-6 lg:w-3/4 mx-auto">
       <Link href="/work/code" className="block aspect-[3/2] rounded-lg overflow-hidden px-2 lg:px-4 pt-2 lg:pt-4 lg:pt-10 relative bg-gradient-to-br from-gray-400">
           <p className="text-3xl lg:text-5xl bg-white text-black max-w-max font-bold px-2 lg:px-6 rounded py-4">
             Coding and Software

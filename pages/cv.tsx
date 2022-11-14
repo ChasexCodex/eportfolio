@@ -51,7 +51,7 @@ export default function CV() {
       <div className="relative w-60 h-60 lg:w-96 lg:h-96 mx-auto my-10">
         <Image src="/images/profile/round.jpg" alt="Profile Image" className="rounded-full ring ring-white" fill/>
       </div>
-      <main className="px-40">
+      <main className="lg:px-40">
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.0.279/build/pdf.worker.min.js">
           <div className="h-screen my-10 rounded-xl overflow-clip">
             <Viewer theme="auto" fileUrl="/files/cv.pdf"
