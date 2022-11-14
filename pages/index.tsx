@@ -8,27 +8,27 @@ import Link from 'next/link'
 const Banners = () => {
   return (
     <div className="space-y-20 pb-20 px-6 lg:w-3/4 mx-auto">
-      <Link href="/work/english" className="block aspect-[3/2] rounded-lg overflow-hidden px-2 lg:px-4 pt-2 lg:pt-4 lg:pt-10 relative bg-gradient-to-br from-orange-700">
+      <Link href="/work/english" className="block aspect-[3/2] rounded-lg overflow-hidden px-2 lg:px-10 pt-2 lg:pt-10 relative bg-gradient-to-br from-orange-700">
         <p className="text-3xl lg:text-5xl bg-white text-black max-w-max font-bold px-2 lg:px-6 rounded py-4">
           English 104 Research and Study
         </p>
         <Image src="/images/library.jpg" fill alt="alt" className="object-cover -z-10"/>
       </Link>
-      <Link href="/work/code" className="block aspect-[3/2] rounded-lg overflow-hidden px-2 lg:px-4 pt-2 lg:pt-4 lg:pt-10 relative bg-gradient-to-br from-gray-400">
+      <Link href="/work/code" className="block aspect-[3/2] rounded-lg overflow-hidden px-2 lg:px-10 pt-2 lg:pt-10 relative bg-gradient-to-br from-gray-400">
           <p className="text-3xl lg:text-5xl bg-white text-black max-w-max font-bold px-2 lg:px-6 rounded py-4">
             Coding and Software
           </p>
           <Image src="/images/coding.png" fill alt="alt" className="object-cover -z-10"/>
       </Link>
 
-      {/*<Link href="/work/design" className="block aspect-[3/2] rounded-lg overflow-hidden px-2 lg:px-4 pt-2 lg:pt-4 lg:pt-10 relative bg-gradient-to-br from-blue-400">*/}
+      {/*<Link href="/work/design" className="block aspect-[3/2] rounded-lg overflow-hidden px-2 lg:px-10 pt-2 lg:pt-10 relative bg-gradient-to-br from-blue-400">*/}
       {/*    <p className="text-3xl lg:text-5xl bg-white text-black max-w-max font-bold px-2 lg:px-6 rounded py-4">*/}
       {/*      Graphics and Design*/}
       {/*    </p>*/}
       {/*    <Image src="/images/deer.jpg" fill alt="alt" className="object-cover -z-10"/>*/}
       {/*</Link>*/}
 
-      <Link href="/work/music" className="block aspect-[3/2] rounded-lg overflow-hidden px-2 lg:px-4 pt-2 lg:pt-4 lg:pt-10 relative bg-gradient-to-br from-purple-400">
+      <Link href="/work/music" className="block aspect-[3/2] rounded-lg overflow-hidden px-2 lg:px-10 pt-2 lg:pt-10 relative bg-gradient-to-br from-purple-400">
           <p className="text-3xl lg:text-5xl bg-white text-black max-w-max font-bold px-2 lg:px-6 rounded py-4">
             Music and Composing
           </p>
