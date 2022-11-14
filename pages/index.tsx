@@ -22,12 +22,12 @@ const Banners = () => {
           <Image src="/images/library.jpg" fill alt="alt" className="object-cover -z-10"/>
       </Link>
 
-      <Link href="/work/design" className="block aspect-[3/2] rounded-lg overflow-hidden px-2 lg:px-4 pt-2 lg:pt-4 lg:pt-10 relative bg-gradient-to-br from-blue-400">
-          <p className="text-3xl lg:text-5xl bg-white text-black max-w-max font-bold px-2 lg:px-6 rounded py-4">
-            Graphics and Design
-          </p>
-          <Image src="/images/deer.jpg" fill alt="alt" className="object-cover -z-10"/>
-      </Link>
+      {/*<Link href="/work/design" className="block aspect-[3/2] rounded-lg overflow-hidden px-2 lg:px-4 pt-2 lg:pt-4 lg:pt-10 relative bg-gradient-to-br from-blue-400">*/}
+      {/*    <p className="text-3xl lg:text-5xl bg-white text-black max-w-max font-bold px-2 lg:px-6 rounded py-4">*/}
+      {/*      Graphics and Design*/}
+      {/*    </p>*/}
+      {/*    <Image src="/images/deer.jpg" fill alt="alt" className="object-cover -z-10"/>*/}
+      {/*</Link>*/}
 
       <Link href="/work/music" className="block aspect-[3/2] rounded-lg overflow-hidden px-2 lg:px-4 pt-2 lg:pt-4 lg:pt-10 relative bg-gradient-to-br from-purple-400">
           <p className="text-3xl lg:text-5xl bg-white text-black max-w-max font-bold px-2 lg:px-6 rounded py-4">
