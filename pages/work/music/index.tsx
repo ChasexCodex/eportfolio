@@ -1,5 +1,4 @@
 import Page from '../../../components/Page'
-import MainHeader from '../../../components/MainHeader'
 import NavBar from '../../../components/NavBar'
 import MainFooter from '../../../components/MainFooter'
 import Link from 'next/link'
@@ -20,7 +19,7 @@ export default function Music() {
             Life (E3)
           </p>
           <p className="lg:w-80">
-            I made this 5 years ago, and I cannot tell what me able to do so.
+            I made this a year ago, and I cannot tell what me able to do so.
           </p>
         </Link>
       </div>

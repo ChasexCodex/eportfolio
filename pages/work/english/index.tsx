@@ -36,7 +36,7 @@ export default function English() {
             My Hands Remembered: My Story With Music
           </p>
           <p className="lg:w-80">
-            How I went from playing simple notes on a toy keyboard to playing classical pieces on a grand piano.
+            The story of how I went from playing simple notes on a toy keyboard to playing classical pieces on a grand piano.
           </p>
         </Link>
         <Link href="/work/english/presentation" className="px-4 h-96 bg-gradient-to-b from-pink-600 to-gray-600 block rounded-r-2xl shadow-sm shadow-white">
@@ -44,7 +44,7 @@ export default function English() {
             Professional Presentation of Ethnography Research.
           </p>
           <p className="lg:w-80">
-            This is the revised version of my Research In Progress (now Research Completed) presentation.
+            This is the revised version of my Research In Progress (now Research Completed) presentation. It highlights the results of Project 4.
           </p>
         </Link>
         <Link href="/work/english/write" className="px-4 h-96 bg-gradient-to-b from-cyan-600 to-gray-600 block rounded-r-2xl shadow-sm shadow-white">
