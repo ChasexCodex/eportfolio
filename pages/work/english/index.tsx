@@ -1,5 +1,4 @@
 import Page from '../../../components/Page'
-import MainHeader from '../../../components/MainHeader'
 import NavBar from '../../../components/NavBar'
 import MainFooter from '../../../components/MainFooter'
 import Link from 'next/link'
@@ -15,29 +14,30 @@ export default function English() {
       </div>
 
       <div className="grid grid-cols-2 p-10 gap-8">
-        <Link href="/work/english/ethnography" className="h-96 bg-gradient-to-b from-purple-900 to-gray-400 block">
-          <p className="px-4 pt-4 text-3xl font-semibold">
+        <Link href="/work/english/ethnography" className="px-4 h-96 bg-gradient-to-b from-purple-900 to-gray-400 block">
+          <p className="py-4 text-3xl font-semibold">
             Communication Skills of Undergraduates of Texas A&M University in Qatar: A Ethnography Study
           </p>
-          <p>
-
+          <p className="w-80">
+            A Research was conducted at Texas A&M university for my ENGL104 Final Project with the aim of finding how students
+            perceive their communication skills being improved during university.
           </p>
         </Link>
-        <Link href="/work/english/rhtorical" className="h-96 bg-gradient-to-b from-purple-900 to-gray-400 block">
-
-          <p className="px-4 pt-4 text-3xl font-semibold">
+        <Link href="/work/english/rhetorical" className="px-4 h-96 bg-gradient-to-b from-amber-700 to-gray-400 block">
+          <p className="py-4 text-3xl font-semibold">
             Visual Rhetorical Analysis of The Foundation for American Security and Freedom{'\''}s <i>The One</i> ad
           </p>
-          <p>
-
+          <p className="w-80">
+            Rhetorical analysis of a political ad about the Iran Nuclear Deal.
+            It explains the ethos, pathos, logos, and additional terms.
           </p>
         </Link>
-        <Link href="/work/english/music" className="h-96 bg-gradient-to-b from-purple-900 to-gray-400 block">
-          <p className="px-4 pt-4 text-3xl font-semibold">
+        <Link href="/work/english/music" className="px-4 h-96 bg-gradient-to-b from-green-600 to-gray-400 block">
+          <p className="py-4 text-3xl font-semibold">
             My Hands Remembered: My Story With Music
           </p>
-          <p>
-
+          <p className="w-80">
+            How I went from playing simple notes on a toy keyboard to playing classical pieces on a grand piano.
           </p>
         </Link>
       </div>
