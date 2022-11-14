@@ -19,14 +19,14 @@ export default function Code() {
             (Dijkstra and AStar implementation).
           </p>
         </Link>
-        <Link href="/work/code/ludum1" className="px-4 h-96 bg-gradient-to-b from-orange-700 to-gray-600 block rounded-r-2xl shadow-sm shadow-white">
-          <p className="py-4 text-2xl lg:text-3xl font-semibold">
-            Ludum Dare 42 Entry: Battlefield King
-          </p>
-          <p className="lg:w-80">
-            My first game and entry to Ludum Dare Game Jam.
-          </p>
-        </Link>
+        {/*<Link href="/work/code/ludum1" className="px-4 h-96 bg-gradient-to-b from-orange-700 to-gray-600 block rounded-r-2xl shadow-sm shadow-white">*/}
+        {/*  <p className="py-4 text-2xl lg:text-3xl font-semibold">*/}
+        {/*    Ludum Dare 42 Entry: Battlefield King*/}
+        {/*  </p>*/}
+        {/*  <p className="lg:w-80">*/}
+        {/*    My first game and entry to Ludum Dare Game Jam.*/}
+        {/*  </p>*/}
+        {/*</Link>*/}
       </div>
       <MainFooter/>
     </Page>
