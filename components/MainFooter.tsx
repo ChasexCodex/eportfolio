@@ -22,8 +22,8 @@ export default function MainFooter() {
             <input className="w-72 px-2 ml-auto rounded ring-2 ring-blue-600" type="text" name="details" placeholder="Enter details..."/>
           </label>
         </form>
-        <div className="w-min rounded-full overflow-hidden my-10 bg-zinc-300 ring ring-gray-700 mx-auto lg:ml-auto lg:mr-0 p-10">
-          <div className="relative h-40 w-40">
+        <div className="w-min rounded-3xl overflow-hidden my-10 bg-zinc-300 ring ring-gray-700 mx-auto lg:ml-auto lg:mr-0 p-10">
+          <div className="relative h-32 w-32">
             <Image src="/logo.png" fill alt=""/>
           </div>
         </div>
