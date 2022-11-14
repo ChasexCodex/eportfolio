@@ -13,8 +13,8 @@ export default function English() {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 p-10 gap-8">
-        <Link href="/work/english/ethnography" className="px-4 h-96 bg-gradient-to-b from-purple-900 to-gray-400 block">
+      <div className="grid grid-cols-1 px-10 w-2/3 mx-auto gap-8 py-10">
+        <Link href="/work/english/ethnography" className="px-4 h-96 bg-gradient-to-b from-purple-900 to-gray-600 block rounded-r-2xl shadow-sm shadow-white">
           <p className="py-4 text-3xl font-semibold">
             Communication Skills of Undergraduates of Texas A&M University in Qatar: A Ethnography Study
           </p>
@@ -23,7 +23,7 @@ export default function English() {
             perceive their communication skills being improved during university.
           </p>
         </Link>
-        <Link href="/work/english/rhetorical" className="px-4 h-96 bg-gradient-to-b from-amber-700 to-gray-400 block">
+        <Link href="/work/english/rhetorical" className="px-4 h-96 bg-gradient-to-b from-amber-700 to-gray-600 block rounded-r-2xl shadow-sm shadow-white">
           <p className="py-4 text-3xl font-semibold">
             Visual Rhetorical Analysis of The Foundation for American Security and Freedom{'\''}s <i>The One</i> ad
           </p>
@@ -32,7 +32,7 @@ export default function English() {
             It explains the ethos, pathos, logos, and additional terms.
           </p>
         </Link>
-        <Link href="/work/english/music" className="px-4 h-96 bg-gradient-to-b from-green-600 to-gray-400 block">
+        <Link href="/work/english/music" className="px-4 h-96 bg-gradient-to-b from-green-600 to-gray-600 block rounded-r-2xl shadow-sm shadow-white">
           <p className="py-4 text-3xl font-semibold">
             My Hands Remembered: My Story With Music
           </p>
@@ -40,12 +40,12 @@ export default function English() {
             How I went from playing simple notes on a toy keyboard to playing classical pieces on a grand piano.
           </p>
         </Link>
-        <Link href="/work/english/presentation" className="px-4 h-96 bg-gradient-to-b from-green-600 to-gray-400 block">
+        <Link href="/work/english/presentation" className="px-4 h-96 bg-gradient-to-b from-pink-600 to-gray-600 block rounded-r-2xl shadow-sm shadow-white">
           <p className="py-4 text-3xl font-semibold">
-            Presentation of Ethnography Research
+            Professional Presentation of Ethnography Research.
           </p>
           <p className="w-80">
-            How I went from playing simple notes on a toy keyboard to playing classical pieces on a grand piano.
+            This is the revised version of my Research In Progress (now Research Completed) presentation.
           </p>
         </Link>
       </div>
